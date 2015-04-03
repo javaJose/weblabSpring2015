@@ -1,0 +1,21 @@
+body {
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+}
+#wrapper {
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+}
+
+#wrapper.active {
+    background-color: red;
+}
+
+
+#wrapper.bigBox {
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+}

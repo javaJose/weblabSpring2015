@@ -1,0 +1,60 @@
+<html>
+<head>
+
+    <style>
+
+        #box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #999;
+            background-color: red;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+<div id="box"></div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="color.js"></script>
+<script>
+    $(function(){
+
+        var box = $('#box');
+        var colors = ['#FFF000','#55ED2D', '#454CA8', '#FA7705'];
+
+
+        box.on('mouseenter', function(){
+            box
+                    .stop(true)
+                    .animate({
+                        backgroundColor: '#FFF000'
+                        , width: 600
+                        , height: 200
+                    }, 1500);
+        });
+
+        box.on('mouseleave', function(){
+            box
+                    .stop(true)
+                    .animate({
+                        backgroundColor: getColor()
+                        , width: 100
+                        , height: 100
+                    }, 1500);
+        });
+        function getColor(){
+            var index= Math.floor(Math.random()*colors.length);
+            console.log(colors[index]);
+            return colors[index];
+        }
+
+
+    });
+</script>
+</body>
+</html>

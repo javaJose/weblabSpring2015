@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= "https://code.jquery.com/jquery-2.1.3.min.js">      </script>
+    <script src= "script.js">      </script>
+
+    <style>
+        .box {
+            background: red;
+            width: 400px;
+            height: 400px;
+        }
+        .box:hover {
+            cursor: pointer;
+        }
+        .blue {
+            background-color: blue;
+            border: dotted;
+            transform: rotateX(35deg);
+            transition: all, .5s, ease;
+        }
+    </style>
+    <script>
+        $(function(){
+            $('.box').click(function() {
+                $(this).addClass('blue');
+                $(this).css('background-color', 'blue');
+                })
+                .mouseout(function(){
+                    if($(this).hasClass('blue')) {
+                        alert('bye');
+                        $(this).removeClass('blue');
+                    }
+                })
+                $('button').click(function(){
+                    $('box').each(function(i){
+                        console.log(this, $(this));
+                        });
+                    $('.box:last-child').clone().appendTo('body');
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+<div class="box">
+box text
+    </div>
+<button><h2>OOOOOOOO</h2></button>
+<div class="box">
+
+</div>
+
+</body>
+</html>
