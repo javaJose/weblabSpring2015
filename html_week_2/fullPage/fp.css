@@ -1,0 +1,62 @@
+.container {
+    margin: 20px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100vh;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+/*ordering the divs*/
+.topBand{order: 1;}
+        .diamond {order: 2;}
+        .mtnImage {order: 3;}
+        .navButtons {order: 4;}
+.middleBand{order: 5;}
+        .centerAside {order: 6;}
+        .prgphAndHeads {order: 7;}
+        .roundedPics {order: 8;}
+                #nyc {order: 9;}
+                #bbs {order: 10;}
+                #run{order: 11;}
+                #concert{order: 12;}
+        .statChart{order: 13;}
+.miniBand{order: 14;}
+        .subscribe{order: 15;}
+        .emailEntry{order: 16;}
+        .subscbButton{order: 17;}
+.bottomBand{order: 1;}
+        .UIRating{order: 19;}
+        .svcList{order: 20;}
+        .mappUs{order: 21;}
+        .mailUs{order: 22;}
+        .emailUs{order: 23;}
+.topBand {height: 100px; width: 100px; background-color: red; align-content: flex-start; position: fixed}/*flex size*/
+        .diamond {height: 100px; width: 100px; background-color: pink; display: cover;}
+        .mtnImage {height: 100px; width: 100px; background-color: pink;}
+        .navButtons {height: 100px; width: 100px; background-color: pink;}
+
+.middleBand {height: 100px; width: 100px; background-color: orangered;width: 100%}/*flex size*/
+        .centerAside {height: 100px; width: 100px; background-color: orange;}
+        .prgphAndHeads {height: 100px; width: 100px; background-color: orange; justify-content: center;}
+        .roundedPics {height: 100px; width: 100px; background-color: orange;}
+                            #nyc {height: 100px; width: 100px; background-color: blue;}
+                            #bbs {height: 100px; width: 100px; background-color: blue;}
+                            #run{height: 100px; width: 100px; background-color: blue;}
+                            #concert{height: 100px; width: 100px; background-color: blue;}/*flex size*/
+        .statChart{height: 100px; width: 100px; background-color: orange;}
+
+.miniBand{height: 100px; width: 100px; background-color: blueviolet;width: 100%}/*flex size*/
+        .subscribe{height: 100px; width: 100px; background-color: violet;}
+        .emailEntry{height: 100px; width: 100px; background-color: violet;}
+        .subscbButton{height: 100px; width: 100px; background-color: violet;}
+
+.bottomBand{height: 100px; width: 100px; background-color: olivedrab;width: 100%}/*flex size*/
+        .UIRating{height: 100px; width: 100px; background-color: greenyellow;}
+        .svcList{height: 100px; width: 100px; background-color: greenyellow;}
+        .mappUs{height: 100px; width: 100px; background-color: greenyellow;}
+        .mailUs{height: 100px; width: 100px; background-color: greenyellow;}
+        .emailUs{height: 100px; width: 100px; background-color: greenyellow;}
