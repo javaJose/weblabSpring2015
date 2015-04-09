@@ -1,0 +1,51 @@
+body {background-color:lightgray}
+#ch1 {
+    background-color: blue;
+    margin: 0 auto;
+    width: 50%;
+}
+#ch2 {
+    background-color: orangered;
+    margin: 0 auto;
+    width: 50%;
+}
+#ch3{
+    background-color: greenyellow;
+    margin: 0 auto;
+    width: 50%;
+}
+#ch4{
+    background-color: aquamarine;
+    margin: 0 auto;
+    width: 50%;
+}
+#c5te{
+    background-color: green;
+    margin: 0 auto;
+    width: 50%;
+}
+#imagech5 {
+    background-image: url('http://illustratorslounge.com/wp-content/uploads/John-Tenniel-alice-in-wonderland-01.jpg');
+    background-repeat: repeat-x;
+
+}
+#toc {
+    background-color: greenyellow;
+    min-width: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+#tit {
+    background-color: aliceblue;
+    width: 50%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+img {
+    background-image: tile;
+}
