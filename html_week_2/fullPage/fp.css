@@ -26,24 +26,26 @@ body{
             margin: 25px;
             position: inherit;
             display: flex;
-
+            flex-direction: row;
             width: 100%;
             background-color: red;
             justify-content: space-between;
             height: 720px;
         }/*flex size*/
                         .mtnImage {
+                            display: flex;
+                            width: 82%;
                             margin: 10px;
                             padding: 10px;
-                            position: fixed;
+                            position: absolute;
                             z-index: 100;
                             height: 624px;
-                            width: 1180px;
+                            /*width: 1180px;*/
                             background-color: pink;
                         }
                                     .diamond {
                                         margin: 100px;
-                                        position: fixed;
+                                        position: absolute;
                                         z-index: 5000;
                                         height: 100px;
                                         width: 100px;
@@ -56,6 +58,7 @@ body{
                         }
 
 .middleBand {
+    margin: 25px;
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
@@ -65,21 +68,21 @@ body{
     width: 100%;
 }/*flex size*/
         .centerAside {align-self:center; margin: 20px; justify-content: center; height: 100px; width: 82%; background-color: #25aa99;}
-        .prgphAndHeads {height: auto; width: 100%; background-color: orange; justify-content: center;}
-        .roundedPics {display: flex; justify-content: space-between;height: auto; width: auto; background-color: orange;}
-        .captions {display: flex;justify-content: space-around;}
+        .prgphAndHeads {width: 82%; height: auto; background-color: orange; justify-content: center;}
+        .roundedPics {width: 82%; display: flex; justify-content: space-between;height: auto; background-color: orange;}
+        .captions {width: 82%;display: flex;justify-content: space-around;}
                             #nyc {height: 100px; width: 100px; background-color: blue;}
                             #bbs {height: 100px; width: 100px; background-color: blue;}
                             #run{height: 100px; width: 100px; background-color: blue;}
                             #concert{height: 100px; width: 100px; background-color: blue;}/*flex size*/
-        .statChart{display: flex; justify-content: center ; background-color: orange;}
+        .statChart{width: 82%;display: flex; justify-content: center ; background-color: orange;}
 
-.miniBand{display:flex;justify-content: space-between; height: auto; background-color: blueviolet;width: 100%}/*flex size*/
+.miniBand{margin: 25px; display:flex;justify-content: space-between; height: auto; background-color: blueviolet;width: 100%}/*flex size*/
         .subscribe{height: 100px; width: 100px; background-color: violet;}
         .emailEntry{height: 100px; width: 100px; background-color: violet;}
         .subscbButton{height: 100px; width: 100px; background-color: violet;}
 
-.bottomBand{display:flex; justify-content: space-between; height: 100px; background-color: olivedrab;width: 100%}/*flex size*/
+.bottomBand{margin: 25px; display:flex; justify-content: space-between; height: 100px; background-color: olivedrab;width: 100%}/*flex size*/
         .UIRating{height: 100px; width: 100px; background-color: greenyellow;}
         .svcList{height: 100px; width: 100px; background-color: greenyellow;}
         .mappUs{height: 100px; width: 100px; background-color: greenyellow;}
@@ -97,7 +100,7 @@ body{
     padding: 15px;
     width: auto;
 }
-.middleBand p{
+.middleBand p:first-child{
     font-family: sans-serif;
     font-size: 18px;
     display: flex;
