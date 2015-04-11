@@ -27,6 +27,7 @@ body{
         .centerAside {align-self:center; margin: 20px; justify-content: center; height: 100px; width: 82%; background-color: #25aa99;}
         .prgphAndHeads {height: auto; width: 100%; background-color: orange; justify-content: center;}
         .roundedPics {display: flex; justify-content: space-between;height: auto; width: auto; background-color: orange;}
+         .captions {display: flex;justify-content: space-around;}
                             #nyc {height: 100px; width: 100px; background-color: blue;}
                             #bbs {height: 100px; width: 100px; background-color: blue;}
                             #run{height: 100px; width: 100px; background-color: blue;}
@@ -58,7 +59,7 @@ body{
 }
 .middleBand p{
     font-family: sans-serif;
-    font-size: 27px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     color: white;
@@ -69,7 +70,8 @@ body{
     font-size: 28px;
 }
 .middleBand p>span ::before {
-    content: " ";
+        content: " .....";
+        color: #25aa99;
 }
       /*************************************************************************************/
 
