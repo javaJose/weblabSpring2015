@@ -26,36 +26,45 @@ body{
             margin: 25px;
             position: inherit;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             width: 100%;
             background-color: red;
-            justify-content: space-between;
-            height: 720px;
+            /*justify-content: space-between;*/
+            height: 550px;
+            background-size: cover;
         }/*flex size*/
-                        .mtnImage {
-                            display: flex;
-                            width: 82%;
-                            margin: 10px;
-                            padding: 10px;
-                            position: absolute;
-                            z-index: 100;
-                            height: 624px;
+                        /*.mtnImage {*/
+                            /*display: flex;*/
+                            /*width: 120%;*/
+                            /*margin: 10px;*/
+                            /*padding: 10px;*/
+                            /*z-index: 100;*/
+                            /*height: 525px;*/
                             /*width: 1180px;*/
-                            background-color: pink;
-                        }
-                                    .diamond {
+                            /*background-color: pink;*/
+                            /*background-size: contain;*/
+                        /*}*/
+                                        .jumbotron{
+                                            background: url(header_background.jpg)no-repeat center left;
+                                            display: flex;
+                                            color: white;
+                                            flex-direction: column;
+                                            /*background-position: 0% 25%;*/
+                                            /*width: 1180px;*/
+                                            height: 515px;
+                                            background-size: cover;
+                                            align-items: flex-end;
+
+
+                                        }
+                                        .diamond {
                                         margin: 100px;
                                         position: absolute;
                                         z-index: 5000;
                                         height: 100px;
                                         width: 100px;
-                                        background-color: none;
+
                                     }
-                        .navButtons {
-                            height: 100px;
-                            width: 100px;
-                            background-color: palegreen;
-                        }
 
 .middleBand {
     margin: 25px;
@@ -112,10 +121,33 @@ body{
     font-size: 28px;
 }
 .middleBand p>span ::before {
-        content: " .....";
-        color: #25aa99;
+    content: " .....";
+    color: #25aa99;
 }
+.nav{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 420px;
 
+
+}
+.wordyWord {
+    display: flex;
+    font-family: Arial;
+    color: white;
+    background-color: gold;
+
+
+
+}
+/*.jumbotron p{*/
+    /*background-color: aliceblue;*/
+
+/*}*/
+/*.jumbotron h3 {*/
+    /*background-color: gold;*/
+
+/*}*/
       /*************************************************************************************/
 
 
